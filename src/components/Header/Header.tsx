@@ -10,7 +10,7 @@ export default function Header() {
         height={128}
         className="m-7"
       />
-      <div className="mt-32 w-full flex-col text-center text-zinc-950">
+      <div className="mt-5 w-full flex-col text-center text-zinc-950 sm:mt-20 lg:mt-32">
         <h1 className="mb-1 font-title text-[40px] font-bold">nós.short</h1>
         <h2>O melhor encurtador de endereços</h2>
       </div>

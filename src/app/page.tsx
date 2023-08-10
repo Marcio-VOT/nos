@@ -1,3 +1,9 @@
-export default function Home() {
-  return <h1 className="">Hello World</h1>
+import LinkShortener from '@/components/LinkShortener/LinkShortener'
+
+export default async function Home() {
+  return (
+    <>
+      <LinkShortener />
+    </>
+  )
 }
